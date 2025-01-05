@@ -60,6 +60,7 @@ public class implementlrucache_leet146 {
         addnode(new Node(key,value));
         mp.put(key,head.next);
     }
+
     public static void main(String[] args) {
         implementlrucache_leet146 LRU=new implementlrucache_leet146(2);
         LRU.put(1,0);
