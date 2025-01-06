@@ -17,6 +17,7 @@ public class searchinrotatedsortedarray2_leet81 {
                 System.out.println("Found at index: "+mid);
                 return;
             }
+
             if(arr[l]==arr[mid] && arr[r]==arr[mid]){
                 l++;
                 r--;
